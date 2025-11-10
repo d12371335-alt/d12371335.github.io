@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>成就 — 個人網頁</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html">首頁</a>
+      <a href="about.html">自我介紹</a>
+      <a href="works.html">作品</a>
+      <a href="sucess.html" class="active">成就</a>
+      <a href="video.html">一點影片</a>
+      <a href="others.html">其他</a>
+    </div>
+  </header>
+  <main class="container">
+    <h1>一點小成就</h1>
+    <button id="toggleAchievements" class="toggle-btn" aria-expanded="false">▼ 展開成就</button>
+    <section id="achievements" class="achievements" hidden>
+      <article class="achievement">
+        <h2>高中</h2>
+        <figure class="thumb">
+          <img src="images/work1.jpg" alt="作品1 縮圖">
+        </figure>
+        <p>（在此填入你在高中時期的獎項、比賽或成就描述）</p>
+      </article>
+      <article class="achievement">
+        <h2>其他</h2>
+        <p>（例如：社團、證照、競賽、公開發表等）</p>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <small>© <span id="year"></span> 個人網頁</small>
+  </footer>
+</body>
+</html>

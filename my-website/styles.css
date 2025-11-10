@@ -1,0 +1,24 @@
+/* ===== 全域樣式 ===== */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+body.fade-in { opacity: 1; }
+body.fade-out { opacity: 0; }
+.site-header { background-color: #3e5c76; color: white; padding: 15px 0; text-align: center; }
+.nav a { color: white; text-decoration: none; margin: 0 10px; font-weight: 500; }
+.nav a:hover { text-decoration: underline; }
+.nav .active { text-decoration: underline; }
+.container { max-width: 800px; margin: 40px auto; padding: 0 20px; background-color: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.container h1 { text-align: center; color: #2c3e50; padding-top: 20px; }
+.toggle-btn { background-color: #3e5c76; color: white; border: none; padding: 10px 15px; border-radius: 6px; cursor: pointer; display: block; margin: 20px auto; transition: background-color 0.3s; }
+.toggle-btn:hover { background-color: #2b3d50; }
+.achievement { margin: 20px 0; border-top: 1px solid #ddd; padding-top: 15px; }
+.thumb img { width: 100%; border-radius: 8px; }
+.site-footer { text-align: center; padding: 20px; background: #e5e5e5; margin-top: 40px; font-size: 14px; }
